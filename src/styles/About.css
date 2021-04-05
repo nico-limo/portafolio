@@ -1,0 +1,105 @@
+.about {
+    background-image: url("../images/background.gif");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    padding-left: 13rem;
+
+}
+
+.about__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about__profilePic {
+    max-width: 100%;
+    position: relative;
+    object-fit: contain;
+    width: 42vw;
+    padding-right: 3rem;
+}
+
+.about__profileText {
+    width: 70%;
+    margin-right: 10rem;
+    padding: 1rem;
+    background-color: var(--bg-primary);
+}
+
+.about__profileText h1 {
+    font-size: 3rem;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.about__profileText p {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+}
+
+.about__profileText a {
+    background: var(--btn-primary);
+    padding: 1rem 3rem;
+    border: var(--border-primary) solid 1px;
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
+
+.about__profileText a:hover {
+    background: none;
+    transition: var(--trasition-speed);
+    padding: 1rem 3rem;
+    border: var(--border-primary) solid 1px;
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
+.about__profilePic > img {
+    height: 60vh;
+}
+
+.about__down {
+    position: absolute;
+    bottom: 0.8rem;
+    color: var(--text-secondary);
+    font-size: 2.3rem;
+    padding-right: 20%;
+}
+
+.about__down:hover {
+    position: absolute;
+    bottom: 0.8rem;
+    color: var(--icon-primary);
+    transition: var(--trasition-speed);
+    font-size: 2.3rem;
+}
+
+@media only screen and (max-width:600px) {
+    .about {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width:1400px) {
+    .about__profilePic > img {
+        display: none;
+    }
+    .about__profileText {
+        width: 100%;
+        background-color: var(--bg-primary);
+    }
+
+}

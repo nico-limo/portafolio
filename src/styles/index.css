@@ -5,6 +5,9 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
+    --btn-primary: #ff3258;
+    --border-primary: #ee2046;
+    --icon-primary: #EFC88B;
     --trasition-speed: 600ms
 }
 
@@ -25,16 +28,4 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-}
-
-main {
-    margin-left: 5rem;
-    padding: 1rem;
-}
-
-@media only screen and (max-width:600px) {
-    main {
-        margin: 0;
-    }
-
 }

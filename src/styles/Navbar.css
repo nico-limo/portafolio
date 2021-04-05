@@ -44,7 +44,7 @@
 }
 
 .navbar__icon {
-    color: #EFC88B;
+    color: var(--icon-primary);
     font-size: 1.8rem;
     min-width: 2rem;
     margin: 0 1.5rem;
